@@ -1,0 +1,141 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 10,
+	"bottomMargin": 10,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "Form CSS",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"listBox": {
+					"type": "listbox",
+					"left": 11,
+					"top": 12,
+					"width": 493,
+					"height": 162,
+					"events": [
+						"onClick",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onSelectionChange",
+						"onRowMove",
+						"onBeginDragOver",
+						"onDeleteAction"
+					],
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"method": "ObjectMethods/listBox.4dm",
+					"singleClickEdit": false,
+					"dataSource": "listBoxSel",
+					"dragging": "custom",
+					"dropping": "custom",
+					"sortable": false,
+					"columns": [
+						{
+							"header": {
+								"text": "Path",
+								"name": "Entête1"
+							},
+							"name": "Colonne1",
+							"footer": {
+								"name": "Pied1"
+							},
+							"width": 396,
+							"dataSource": "path",
+							"events": [
+								"onLosingFocus",
+								"onDataChange",
+								"onAlternateClick",
+								"onBeforeDataEntry"
+							],
+							"method": "ObjectMethods/Colonne1.4dm",
+							"dataSourceTypeHint": "object"
+						},
+						{
+							"header": {
+								"name": "Entête2",
+								"text": "Media"
+							},
+							"name": "Colonne2",
+							"footer": {
+								"name": "Pied2"
+							},
+							"width": 80,
+							"dataSource": "media",
+							"resizable": false,
+							"choiceList": {
+								"$ref": "/SOURCES/lists.json#/media"
+							}
+						}
+					]
+				},
+				"Bouton": {
+					"type": "button",
+					"text": "OK",
+					"top": 184,
+					"left": 420,
+					"width": 86,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "move",
+					"sizingY": "move",
+					"method": "ObjectMethods/Bouton.4dm"
+				},
+				"Bouton1": {
+					"type": "button",
+					"text": "Cancel",
+					"top": 184,
+					"left": 314,
+					"width": 86,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "move",
+					"sizingY": "move",
+					"method": "ObjectMethods/Bouton1.4dm"
+				}
+			}
+		}
+	],
+	"geometryStamp": 70,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

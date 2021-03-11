@@ -1,0 +1,22 @@
+﻿{
+	"methods": {
+		"test": {
+			"timeStamp": "2020-09-01T07:35:30.504Z"
+		},
+		"_AddEmptyRow": {
+			"timeStamp": "2020-09-01T14:16:35.064Z"
+		},
+		"_CountPath": {
+			"timeStamp": "2020-09-01T15:21:54.457Z"
+		},
+		"_IsInsidePackage": {
+			"timeStamp": "2020-09-01T14:03:58.485Z"
+		},
+		"_IsSubOf": {
+			"timeStamp": "2020-09-01T15:33:59.971Z"
+		},
+		"_ValidatePath": {
+			"timeStamp": "2020-09-01T15:36:50.030Z"
+		}
+	}
+}
